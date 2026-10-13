@@ -1,3 +1,14 @@
+> **Fork notice**
+>
+> Fork of [`big-brain`](https://codeberg.org/zkat/big-brain) by Kat Marchán, maintained only
+> to keep it building against the Bevy version used by
+> [`bevy_fps_demo`](https://github.com/huyvu8051/bevy_fps_demo). Not published to crates.io
+> and tracking no release schedule — upstream is the one you want for general use.
+>
+> Changes from upstream v0.23.0, as required by Apache-2.0 section 4(b):
+> - `src/actions.rs`, `src/thinker.rs` — adjusted for Bevy API changes.
+> - `Cargo.toml` — bevy dependency bumped (currently 0.19).
+
 # `big-brain`
 
 [![crates.io](https://img.shields.io/crates/v/big-brain.svg)](https://crates.io/crates/big-brain)
